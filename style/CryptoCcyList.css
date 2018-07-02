@@ -1,0 +1,49 @@
+.jumbotron.vertical-center{
+    background: #fff;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.cryptoRow {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.cryptoName {
+    color: darkcyan;
+}
+
+.cryptoPrice {
+    margin-left: auto;
+}
+.green{
+    background: green;
+    color:#fff;
+    padding: 5px; 
+    border-radius:5px;  
+}
+.red{
+    background:red;
+    color:#fff;
+    padding: 5px;
+    border-radius:5px;  
+}
+
+.cryptoChange {
+    padding: 5px;
+    margin-left: 30px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    width: 60px;
+    text-align: right;
+}
